@@ -71,11 +71,11 @@ Device Guard - Disabled
 
 ## NOTES
 1. My EFI is heavily biased towards low energy consumption. 
-2. With my EFI Thunderbolt should work. However I have desabled it since it saves a lot (I mean A LOT) of power. However since then I lost the use of the second type-c. It still charges the battery but it not working as a port for accessories. As of now, I don' t know if this problem is a usb map problem. I am still working on it.
-3. If you want to disable Thunderbolt turn of the the relevant SSDT and the IOElectrify.kext. 
-4. During the formation of this EFI I lost access to  some battery settings in the settings app (the panel that lets you put hard disks to sleep etc). I dont know how to bring it back and I would appriciate any help).
-5. Use VoltageShift to create a lauch service. It helps a lot wit power consumption and heat.
-6. Use ThinkPad Assistant for all the fkeys to work properly. 
+2. With my EFI Thunderbolt should work. However I have desabled it, because it saves a lot (I mean A LOT) of power. However since then I lost the use of the second type-c. It still charges the battery but its not working as a port for accessories. As of now, I don' t know if this problem is a usb map problem. I am still working on it.
+3. If you want to disable Thunderbolt turn off in config.plist  the relevant SSDT and the IOElectrify.kext. 
+4. During the formation of this EFI I lost access to some battery settings in the settings app (the panel that lets you put hard disks to sleep etc). I dont know how to bring it back and I would appriciate any help).
+5. Use VoltageShift to create a lauch service. It helps a lot with power consumption and heat.
+6. Use ThinkPad Assistant for all the f-keys to work properly. 
 
 
 ## Screenshots    
