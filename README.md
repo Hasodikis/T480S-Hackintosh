@@ -8,23 +8,24 @@
 | Processor           | Intel Core i7-8650U Processor            |Fully|
 | Memory              | 16GB-> 8GB on Bourd and 8GB on the slot  |Fully|
 | Storage             | WD Blue SN570 500GB                      |Fully|
-|                     | WDC PC SN520  256GB                      |Fully (installed in WWLAN m.2)| 
-| Graphics            | Intel UHD Graphics 620                   |Fully with WhateverGreen.kext and properties inject|
+| Storage  n2         | WDC PC SN520  256GB                      |Fully (installed in WWLAN m.2)| 
+| Graphics            | Intel UHD Graphics 620                   |Fully|
 | Display             | 14.0" FHD 1920x1080 LED IPS              |Fully|
 | Touch Screen        | Raydium Touch Screen                     |Fully (with gestures)|
-| Audio               | Realtek Audio ALC257 codec               |Fully with AppleALC.kext and layout-id 11|
-| Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully with IntelMausi.kext|
+| Audio               | Realtek Audio ALC257 codec               |Fully |
+| Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully|
 | WLAN & Bluetooth    | Intel(R) Dual Band Wireless-AC 8265      |Fully 
 | MicroSD Card Reader | Generic-SD/MMC CRW USB Device            |Fully|
 | Keyboard & Trackpad | TrackPoint and multi-touch touchpad      |Fully
-| Fingerprint         | On chip fingerprint reader               |Non-funtional|
+| Fingerprint         | On chip fingerprint reader               |Non-funtional Disabled in Bios|
 | Camera              |UVC Camera VendorID_1266 ProductID_46596  |Fully||
 
 
 |Ports |
 |------|
 |two USB 3.1 Gen 1|  Fully working|
-|two USB 3.1 Type-C Gen 2/Thunderbolt 3|NoThunderbolt device to test.  When thunderbolt is disbaled in Bios, then the second type-C does not work, however it charges the battery|
+|two USB 3.1 Type-C Gen 2/Thunderbolt 3|
+NoThunderbolt device to test.  When thunderbolt is disbaled in Bios, then the second type-C does not work, however it charges the battery
 |HDMI 1.4b|
 |Ethernet extension connector|
 |headphone/microphone jack|
