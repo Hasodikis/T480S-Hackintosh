@@ -25,7 +25,7 @@
 |------|
 |two USB 3.1 Gen 1|  Fully working|
 |two USB 3.1 Type-C Gen 2/Thunderbolt 3|
-NoThunderbolt device to test.  When thunderbolt is disbaled in Bios, then the second type-C does not work, however it charges the battery
+NoThunderbolt device to test.  When thunderbolt is disabled in Bios, then the second type-C does not work, however it charges the battery
 |HDMI 1.4b|
 |Ethernet extension connector|
 |headphone/microphone jack|
