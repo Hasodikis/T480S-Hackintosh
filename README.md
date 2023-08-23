@@ -79,8 +79,17 @@ Device Guard - Disabled
 7. I think my OC/ACPI folder is a mess. I copied it from other succesfull installations. It creates some minor ACPI errors at boot. It needs to be cleaned up. 
 
 
-## Screenshots    
+## Screenshot   
 
 
 ![Screenshot 2023-08-19 at 12 36 57 PM](https://github.com/Hasodikis/T480S-Hackintosh/assets/61179177/baac1f7d-6028-4f55-86c4-78bdbe02c721)
 
+## With Second (low power) EFI
+With my second EFI and with 
+1. Thunderbolt off in Bios and disabled thw relevant Thunderbolt settings.
+2. WWlan and card reader disabled in BIOS,
+but with everything else on, including two nvmes and the touchscreen
+3. With voltageshift undervolting (with CPU turbo Disabled)
+command: sudo ./voltageshift buildlaunchd  -80 -80 -50 0 0 0 0 0 0 1 0 0 1 10
+I get the best resaults to date
+![Screenshot 2023-08-23 at 15 54 30](https://github.com/Hasodikis/T480S-Hackintosh/assets/61179177/8bccce25-c186-467a-b369-c21a302f2231)
