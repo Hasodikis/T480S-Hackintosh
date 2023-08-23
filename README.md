@@ -86,9 +86,9 @@ Device Guard - Disabled
 
 ## With Second (low power) EFI
 With my second EFI and with 
-1. Thunderbolt off in Bios and disabled thw relevant Thunderbolt settings.
+1. Thunderbolt off in Bios and with the relevant Thunderbolt settings also disabled.
 2. WWlan and card reader disabled in BIOS,
-but with everything else on, including two nvmes and the touchscreen
+but with everything else on, including two nvme drives and the touchscreen
 3. With voltageshift undervolting (with CPU turbo Disabled)
 command: sudo ./voltageshift buildlaunchd  -80 -80 -50 0 0 0 0 0 0 1 0 0 1 10
 I get the best resaults to date
