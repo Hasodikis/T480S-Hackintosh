@@ -73,11 +73,11 @@ Device Guard - Disabled
 1. My EFI is heavily biased towards low energy consumption. 
 2. With my EFI, Thunderbolt should work. However I have desabled it in BIOS, because it saves a lot (I mean A LOT) of power.Since then I lost the use of the second type-c. It still charges the battery but its not working as a port for accessories. As of now, I don' t know if this problem is a usb mapping issue. I am still working on it. **SOLVED Its normal**
 3. If you want to disable Thunderbolt turn off in config.plist  the relevant SSDT and the IOElectrify.kext. 
-4. During the formation of this EFI I lost access to some battery settings in the settings app (the panel that lets you put hard disks to sleep etc). I dont know how to bring it back and I would appriciate any help. **SOLVED in v.1.2**
+4. During the formation of this EFI I lost access to some battery settings in the settings app (the panel that lets you put hard disks to sleep etc). I dont know how to bring it back and I would appriciate any help. **SOLVED in v.1.2 but only when booting form USB (I cannot explain it)**
 5. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat.
 6. Use ThinkPad Assistant for all the f-keys to work properly.
 7. I think my OC/ACPI folder is a mess. I copied it from other succesfull installations. It creates some minor ACPI errors at boot. It needs to be cleaned up.
-8. The ACPI Errors are detailed here: https://www.tonymacx86.com/threads/partially-solved-thinkpad-t480s-macos13-5-1-oc-0-9-4-2-acpi-errors.326911/. It seems that I have corrected the _OINI error (SSDT-INIT) by ammending the SSDT-INIT.aml, but the _TTS error (SSDT-LED and SSDT-SLEEP) goes away only when I disable SSDT-SLEEP in config.plist. Up to now I don' t see any differences in the way the T480S works. Further testing is necessary and then I will merge the differences in a new release.  **SOLVED at least for the moment**
+8. The ACPI Errors are detailed here: https://www.tonymacx86.com/threads/partially-solved-thinkpad-t480s-macos13-5-1-oc-0-9-4-2-acpi-errors.326911/. It seems that I have corrected the _OINI error (SSDT-INIT) by ammending the SSDT-INIT.aml, but the _TTS error (SSDT-LED and SSDT-SLEEP) goes away only when I disable SSDT-SLEEP in config.plist. Up to now I don' t see any differences in the way the T480S works. Further testing is necessary and then I will merge the differences in a new release.  **SOLVED, at least for the moment**
 
 
 ## Screenshot   
