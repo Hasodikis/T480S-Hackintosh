@@ -76,7 +76,8 @@ Device Guard - Disabled
 4. During the formation of this EFI I lost access to some battery settings in the settings app (the panel that lets you put hard disks to sleep etc). I dont know how to bring it back and I would appriciate any help.
 5. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat.
 6. Use ThinkPad Assistant for all the f-keys to work properly.
-7. I think my OC/ACPI folder is a mess. I copied it from other succesfull installations. It creates some minor ACPI errors at boot. It needs to be cleaned up. 
+7. I think my OC/ACPI folder is a mess. I copied it from other succesfull installations. It creates some minor ACPI errors at boot. It needs to be cleaned up.
+8. The ACPI Errors are detailed here: https://www.tonymacx86.com/threads/partially-solved-thinkpad-t480s-macos13-5-1-oc-0-9-4-2-acpi-errors.326911/. It seems that I have corrected the _OINI error (SSDT-INIT) by ammending the SSDT-INIT.aml, but the _TTS error (SSDT-LED and SSDT-SLEEP) goes away only when I disable SSDT-SLEEP in config.plist. Up to now I don' t see any differences in the way the T480S works. Further testing is necessary and then I will merge the differences in a new release.  
 
 
 ## Screenshot   
