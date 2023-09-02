@@ -1,6 +1,6 @@
 ## MacOS on Thinkpad T480s. Currently on Ventura 13.5.1
 
-## Please note that this is a working project. I just got the laptop a few days ago. 
+## Please note that this is a working project. It' s stable but not finished yet. 
 
 # My hardware configuration
 | Name                | Specifications | Funtional or not |
