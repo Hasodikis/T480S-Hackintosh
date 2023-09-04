@@ -89,7 +89,7 @@ Device Guard - Disabled
 ![Screenshot 2023-08-19 at 12 36 57 PM](https://github.com/Hasodikis/T480S-Hackintosh/assets/61179177/baac1f7d-6028-4f55-86c4-78bdbe02c721)
 
 ## With my Second (low power) EFI and onwards:
-I get the best results to date with 
+I get the best results to date in power consumption. 
 1. Thunderbolt is disabled in Bios. In config.plist, the relevant SSDT-TB and the IOElectrify.kext are disabed and in BIOS Thunderbolt BIOS Assist Mode - Enabled..
 3. WWlan and card-reader are disabled in BIOS,
 4. Everything else is on, including two nvme drives and the touchscreen
