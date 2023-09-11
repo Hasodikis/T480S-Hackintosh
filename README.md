@@ -73,8 +73,10 @@ Intel (R) SGX Control - Disabled
 Device Guard - Disabled
 
 ## Notes on v.2 and onwards. 
-Since v.2 all ACPI errors have been fixed with the ssdts I want to load. 
+Since v.2 all ACPI errors have been fixed with the ssdts I want to load.
+
 USBports mapping moved to ACPI (USB ports kext removed) 
+
 This EFI enables DYTC (Lenovo thermal management) and disables DPTF (Intel thermal management)
 
 ## NOTES
