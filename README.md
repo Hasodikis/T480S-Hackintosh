@@ -1,6 +1,6 @@
 ## MacOS on Thinkpad T480s. Currently on Ventura 13.5.1
 
-## Please note that this repo is a Work In Progress. It' s stable, but not finished yet. 
+## Since v.2 all releases are stable and dayly drving my T480s. 
 ## I have opted to disable TB in BIOS to save energy, since I have no TB accesories. At the moment what conserns me most is the ACPI folder and power consumption.    
 
 # My hardware configuration
@@ -71,6 +71,11 @@ Secure Boot - Disabled
 Intel (R) SGX Control - Disabled
 12. Device Guard
 Device Guard - Disabled
+
+## Notes on v.2 and onwards. 
+Since v.2 all ACPI errors have been fixed with the ssdts I want to load. 
+USBports mapping moved to ACPI (USB ports kext removed) 
+This EFI enables DYTC (Lenovo thermal management) and disables DPTF (Intel thermal management)
 
 ## NOTES
 1. My EFI is heavily biased towards low energy consumption. At least I tried to
