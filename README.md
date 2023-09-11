@@ -73,35 +73,19 @@ Intel (R) SGX Control - Disabled
 Device Guard - Disabled
 
 ## Notes on v.2 and onwards. 
-Since v.2 all ACPI errors have been fixed with the ssdts I want to load.
-
-USBports mapping moved to ACPI (USB ports kext removed) 
-
-This EFI enables DYTC (Lenovo thermal management) and disables DPTF (Intel thermal management)
-
-## NOTES
-1. My EFI is heavily biased towards low energy consumption. At least I tried to
-2. With my EFI, Thunderbolt should work. However I have disabled it in BIOS, because it saves a lot (I mean A LOT) of power.Since then, I have lost the use of the second type-c. It still charges the battery but its not working as a port for accessories. As of now, I don' t know if this problem is a usb mapping issue. I am still working on it. **SOLVED Its normal**
-3. If you want to disable Thunderbolt turn off in config.plist  the relevant SSDT and the IOElectrify.kext and in BIOS Thunderbolt BIOS Assist Mode - Enabled. 
-4. During the formation of this EFI, I lost access to some battery settings in the settings app (the option that lets you put hard disks to sleep etc). I dont know how to bring it back and I would appriciate any help. **SOLVED in v.1.2, but only when booting form USB (I cannot explain it)**
-5. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat.
-6. Use ThinkPad Assistant for all the f-keys to work properly.
-7. I think my OC/ACPI folder is a mess. I copied it from other succesfull installations. It creates some minor ACPI errors at boot. It needs to be cleaned up.
-8. The ACPI Errors are detailed here: https://www.tonymacx86.com/threads/partially-solved-thinkpad-t480s-macos13-5-1-oc-0-9-4-2-acpi-errors.326911/. It seems that I have corrected the _OINI error (SSDT-INIT) by ammending the SSDT-INIT.aml, but the _TTS error (SSDT-LED and SSDT-SLEEP) goes away only when I disable SSDT-SLEEP in config.plist. Up to now I don' t see any differences in the way the T480S works. Further testing is necessary and then I will merge the differences in a new release.  **SOLVED, at least for the moment**
-
-### HELP IS NEEDED TO CORRECTLY APPLY ACPI POWER PROPERTIES FOR USB PORTS AND OTHER COMPONENTS
-
+1. My EFI is heavily biased towards low energy consumption. At least I tried to.....
+2. Since v.2 all ACPI errors have been fixed with the ssdts I want to load.
+3. USBports mapping moved to ACPI (USB ports kext removed)
+4. This EFI enables DYTC (Lenovo thermal management) and disables DPTF (Intel thermal management)
+5. Thunderbolt is disabled in BIOS, because i have no thunderbolt device.  This turns of the second type-c. It still charges the battery but its not working as a port for accessories.
+6. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat.  For my laptop I am stable with:
+   sudo ./voltageshift buildlaunchd  -80 -80 -50 0 0 0 0 0 0 1 0 0 1 10
+   # Test your laptop first before you bulid a launch service
+7. Use ThinkPad Assistant for all the f-keys to work properly.
+   
 ## Screenshot   
 
 ![Screenshot 2023-08-19 at 12 36 57 PM](https://github.com/Hasodikis/T480S-Hackintosh/assets/61179177/baac1f7d-6028-4f55-86c4-78bdbe02c721)
 
-## With my Second (low power) EFI and onwards:
-I get the best results to date in power consumption. 
-1. Thunderbolt is disabled in Bios. In config.plist, the relevant SSDT-TB and the IOElectrify.kext are disabed and in BIOS Thunderbolt BIOS Assist Mode - Enabled..
-3. WWlan and card-reader are disabled in BIOS,
-4. Everything else is on, including two nvme drives and the touchscreen
-4. Use voltageshift for undervolting (you can aso disable CPU turbo). For my laptop I am stable with:
-   sudo ./voltageshift buildlaunchd  -80 -80 -50 0 0 0 0 0 0 1 0 0 1 10
-   Test your laptop first before you bulid a launch service
 ![Screenshot 2023-08-23 at 15 54 30](https://github.com/Hasodikis/T480S-Hackintosh/assets/61179177/1576e859-c198-4ca9-bb0e-8bac7beb0385)
 
