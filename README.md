@@ -1,6 +1,6 @@
 ## MacOS on Thinkpad T480s. Currently on Ventura 13.5.1
 
-## Since v.2 all releases are stable and dayly drving my T480s. 
+## Since v.2 all releases are stable and daily drving my T480s. 
 ## I have opted to disable TB in BIOS to save energy, since I have no TB accesories. At the moment what conserns me most is the ACPI folder and power consumption.    
 
 # My hardware configuration
