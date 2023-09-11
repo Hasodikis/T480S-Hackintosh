@@ -77,8 +77,8 @@ Device Guard - Disabled
 2. Since v.2 all ACPI errors have been fixed with the ssdts I want to load.
 3. USBports mapping moved to ACPI (USB ports kext removed)
 4. This EFI enables DYTC (Lenovo thermal management) and disables DPTF (Intel thermal management)
-5. Thunderbolt is disabled in BIOS, because i have no thunderbolt device.  This turns of the second type-c. It still charges the battery but its not working as a port for accessories.
-6. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat.  For my laptop I am stable with:
+5. Thunderbolt is disabled in BIOS, because i have no thunderbolt device.  This turns off the second type-c. It still charges the battery but its not working as a port for accessories.
+6. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat. For my laptop I am stable with:
    sudo ./voltageshift buildlaunchd  -80 -80 -50 0 0 0 0 0 0 1 0 0 1 10
    ## Test your laptop first before you build a voltageshift launch service
 7. Use ThinkPad Assistant for all the f-keys to work properly.
