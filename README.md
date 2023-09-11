@@ -80,7 +80,7 @@ Device Guard - Disabled
 5. Thunderbolt is disabled in BIOS, because i have no thunderbolt device.  This turns of the second type-c. It still charges the battery but its not working as a port for accessories.
 6. Use VoltageShift to create a launch service for undervolitng. It helps a lot with power consumption and heat.  For my laptop I am stable with:
    sudo ./voltageshift buildlaunchd  -80 -80 -50 0 0 0 0 0 0 1 0 0 1 10
-   # Test your laptop first before you bulid a launch service
+   ## Test your laptop first before you build a voltageshift launch service
 7. Use ThinkPad Assistant for all the f-keys to work properly.
    
 ## Screenshot   
