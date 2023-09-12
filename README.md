@@ -20,7 +20,7 @@
 | Keyboard & Trackpad | TrackPoint and multi-touch touchpad      |Fully
 | Fingerprint         | On chip fingerprint reader               |Non-funtional (I have disabled it in BIOS)|
 | Camera              |UVC Camera VendorID_1266 ProductID_46596  |Fully||
-| Thunderbolt3        | Intel                                    | Should work, no testing device (I have disabled it in BIOS)|
+| Thunderbolt3        | Intel                                    | Should work with the first release, no testing device (I have disabled it in BIOS)|
 | WWlan               | ------                                   | Cannot be tested (I have disabled it in BIOS)|
 
 
