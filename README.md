@@ -16,6 +16,7 @@
 | Audio               | Realtek Audio ALC257 codec               |Fully |
 | Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully (When disabled in BIOS, the computer boots with WLN turned off and you have to manually turn it on)|
 | WLAN & Bluetooth    | Intel(R) Dual Band Wireless-AC 8265      |WLAN Fully (chopy audio on Bluetooth with apple earpods)| 
+|                     |**Replaced by a BCM94360NG**              | Everything (airdrop, continuity etc) works|
 | MicroSD Card Reader | Generic-SD/MMC CRW USB Device            |Fully (I have disabled it in BIOS)|
 | Keyboard & Trackpad | TrackPoint and multi-touch touchpad      |Fully
 | Fingerprint         | On chip fingerprint reader               |Non-funtional (I have disabled it in BIOS)|
@@ -71,6 +72,15 @@ Secure Boot - Disabled
 Intel (R) SGX Control - Disabled
 12. Device Guard
 Device Guard - Disabled
+
+## Notes on Wifi (14-9-2023)
+I replaced the original intel wifi/BT module, with a BCM94360NG!
+Everything works OTB in Ventura 13.5.2 by juyst disabling intel kexts in OC!!!
+Airdrop, continuity, extended display to iPad, they all work.
+
+But the most important thing is power consumption!!! 
+For the first time in all my hackintosh years and tries, power consumption at idle in PKG is bellow 1 watt!!! PKG is at around 0.60-0,70 watts!!!
+With screen at half brightness and BT off the battery is discharging with less than 4,3 Watts on idle!!!!!!!! 
 
 ## Notes on v.2 and onwards. 
 1. My EFI is heavily biased towards low energy consumption. At least I tried to.....
