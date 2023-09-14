@@ -1,4 +1,4 @@
-## MacOS on Thinkpad T480s. Currently on Ventura 13.5.1
+## MacOS on Thinkpad T480s. Currently on MacOS 13 Ventura
 
 ## Since v.2 all releases are stable and daily driving my T480s. 
 ## I have opted to disable TB in BIOS to save energy, since I have no TB accesories.    
