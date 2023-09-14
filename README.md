@@ -75,7 +75,7 @@ Device Guard - Disabled
 
 ## Notes on Wifi (14-9-2023)
 I replaced the original intel wifi/BT module, with a BCM94360NG!
-Everything works OTB in Ventura 13.5.2 by juyst disabling intel kexts in OC!!!
+Everything works OTB in Ventura 13.5.2 by just disabling intel kexts in OC!!!
 Airdrop, continuity, extended display to iPad, they all work.
 
 But the most important thing is power consumption!!! 
