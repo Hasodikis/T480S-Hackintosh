@@ -9,7 +9,7 @@
 | Processor           | Intel Core i7-8650U Processor            |Fully (undervolted and Turbo turned off)|
 | Memory              | 16GB-> 8GB on Bourd and 8GB on the slot  |Fully|
 | Storage             | WD Blue SN570 500GB                      |Fully|
-| Storage  n2         | WDC PC SN520  256GB                      |Fully (installed in WWLAN m.2) Time Mashine Disk| 
+| Storage  n2         | WDC PC SN520  256GB                      |Fully (installed in WWLAN m.2) Time Machine Disk| 
 | Graphics            | Intel UHD Graphics 620                   |Fully with HDMI out|
 | Display             | 14.0" FHD 1920x1080 LED IPS              |Fully|
 | Touch Screen        | Raydium Touch Screen                     |Fully (with gestures)|
