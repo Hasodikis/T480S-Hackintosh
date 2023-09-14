@@ -82,6 +82,9 @@ But the most important thing is power consumption!!!
 For the first time in all my hackintosh years and tries, power consumption at idle in PKG is bellow 1 watt!!! PKG is at around 0.60-0,70 watts!!!
 With screen at half brightness and BT off the battery is discharging with less than 4,3 Watts on idle!!!!!!!! 
 
+I can only hope that a viable solution for Sonoma is found!  
+
+
 ## Notes on v.2 and onwards. 
 1. My EFI is heavily biased towards low energy consumption. At least I tried to.....
 2. Since v.2 all ACPI errors have been fixed with the ssdts I want to load.
